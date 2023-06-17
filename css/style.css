@@ -50,24 +50,53 @@ table {
     width: 1200px;
     margin: 20px auto;
 }
-.block-top {
-    font-size: 0;
-    background: gray;
 
+.bg-aqua {
+    background: aqua;
 }
-.block-top-child {
-    font-size: 14px;
-    width: 400px;
-    height: 400px;
-    outline: 1px solid red;
+.bg-green {
+    background: greenyellow;
+}
+.bg-dark {
+    background: darkorange;
+}
+.inline-block {
     display: inline-block;
 }
-
-.block-middle {
-    outline: 2px solid black;
-    font-size: 0px;
-
+.outline {
+    outline: 2px solid red;
 }
+.fz-0 {
+    font-size: 0px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.h-100 {
+    height: 100px;
+}
+.h-133 {
+    height: 133.33px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
 .block-middle-mini-left {
     font-size: 14px;
     background: aqua;
