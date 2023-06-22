@@ -97,72 +97,12 @@ table {
     height: 400px;
 }
 
-.block-middle-mini-left {
-    font-size: 14px;
-    background: aqua;
-    display: inline-block;
+.floattt {
+    float: left;
 }
 
-.block-middle-mini-right {
-    background: gold;
-    font-size: 14px;
-    display: inline-block;
-}
-
-.block-middle-child-left {
-    font-size: 14px;
-    outline: 1px solid red;
-    width: 800px;
-    height: 200px;
-}
-.block-middle-child-right {
-    font-size: 14px;
-    outline: 1px solid red;
-    height: 133px;
-    width: 400px;
-}
-.block-bottom {
-    outline: 2px solid red;
-    font-size: 0px;
-    background: aquamarine;
-}
-.bottom-firstchild {
-    font-size: 14px;
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-    outline: 1px solid red;
-}
-.bottom-secondchild {
-    font-size: 14px;
-    display: inline-block;
-    outline: 2px solid red;
-}
-.bottom-ten {
-    width: 800px;
-    height: 200px;
-    outline: 2px solid red;
-}
-.bottom-eleven {
-    display: inline-block;
-    font-size: 14px;
-    outline: 2px solid black;
-    width: 400px;
-    height: 200px;
-}
-.bottom-thirdchild {
-    font-size: 0px;
-}
-.bottom-forthchild {
-    display: inline-block;
-    font-size: 14px;
-    width: 400px;
-}
-.bottom12 {
-    outline: 2px solid red;
-    height: 100px;
-}
-.bottom13 {
-    outline: 2px solid red;
-    height: 100px;
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '.'
 }
